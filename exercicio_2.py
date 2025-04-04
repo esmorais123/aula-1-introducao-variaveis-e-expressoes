@@ -1,16 +1,6 @@
-"""
-#### Exercício 2
+preco = float(input("Digite o valor do produto: "))
+desconto = float(input("Digite o percentual de desconto: "))
 
-Receba 2 inputs do usuário: O preço de um produto em reais e uma porcentagem de desconto a ser aplicada sobre ele (entre 0 e 100). Devolva o preço final do produto.
+valor_final = preco - (preco*(desconto/100))
 
-Exemplo:
-
-Digite o preço do produtos em reais: 10.5
-
-Digite o desconto a ser aplicado (em porcentagem): 50
-
-
-Resposta:
-
-O preço final do produto é 5.25
-"""
+print(f"O preço final do produto é R$ {valor_final}")
